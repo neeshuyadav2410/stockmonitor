@@ -10,7 +10,7 @@ import concurrent.futures  # For parallel processing
 TIME_FRAME_MINUTES = 3 # Running interval
 MARKET_START_HOUR = 9
 MARKET_START_MINUTE = 15
-VOLUME_MULTIPLIER = 2  # Threshold multiplier for alerts
+VOLUME_MULTIPLIER = 10  # Threshold multiplier for alerts
 MIN_VOLUME_THRESHOLD = 100  # Ignore stocks with volume < 100
 
 # Define timezone
